@@ -6,8 +6,9 @@
     "message": "You shall not pass!"
   }
 */
-function restricted() {
+function restricted(req, res, next) {
 console.log('snap restricted')
+next()
 }
 
 /*
